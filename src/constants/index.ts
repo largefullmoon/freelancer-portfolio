@@ -32,6 +32,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  garage,
+  medicalapp,
+  healthapp,
+  datingapp,
+  chatbot1,
+  chatbot2,
+  ecommerce1,
+  ecommerce2,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -126,10 +134,10 @@ const technologies: TTechnology[] = [
 const experiences: TExperience[] = [
   {
     title: "React.js Developer",
-    companyName: "Starbucks",
+    companyName: "",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2020 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -139,10 +147,10 @@ const experiences: TExperience[] = [
   },
   {
     title: "React Native Developer",
-    companyName: "Tesla",
+    companyName: "",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,11 +159,11 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
+    title: "Python and Ecommerce Developer",
+    companyName: "",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -164,8 +172,8 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
+    title: "Full stack Web and Mobile Developer",
+    companyName: "",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -181,15 +189,15 @@ const experiences: TExperience[] = [
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Laroslav proved me wrong.",
+    name: "Sara",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Laroslav does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -197,7 +205,7 @@ const testimonials: TTestimonial[] = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Laroslav optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -207,7 +215,7 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Business Chatbot",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -216,19 +224,19 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: chatbot1,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AI Assistant",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -237,28 +245,28 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: chatbot2,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "3D Garage Design",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react.js",
         color: "green-text-gradient",
       },
       {
@@ -266,7 +274,112 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: garage,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Dating App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: datingapp,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Health & Fitness App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pythoon",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: healthapp,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Medical Services App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: medicalapp,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Soups Shop",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "theme",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce1,
+    sourceCodeLink: "https://github.com/",
+  },
+  {
+    name: "Cloths Shop",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce2,
     sourceCodeLink: "https://github.com/",
   },
 ];

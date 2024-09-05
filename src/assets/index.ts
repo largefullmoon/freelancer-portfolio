@@ -29,8 +29,24 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import garage from "./threejs.png";
+import chatbot1 from "./chatbot1.png";
+import chatbot2 from "./chatbot2.png";
+import datingapp from "./datingapp.png";
+import healthapp from "./healthapp.png";
+import medicalapp from "./medicalapp.png";
+import ecommerce1 from "./ecommerce1.png";
+import ecommerce2 from "./ecommerce2.png";
 
 export {
+  garage,
+  medicalapp,
+  healthapp,
+  datingapp,
+  chatbot1,
+  chatbot2,
+  ecommerce1,
+  ecommerce2,
   logo,
   backend,
   creator,
