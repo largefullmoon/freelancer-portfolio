@@ -28,9 +28,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   garage,
   medicalapp,
@@ -216,8 +213,6 @@ const testimonials: TTestimonial[] = [
 const projects: TProject[] = [
   {
     name: "Business Chatbot",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
@@ -233,12 +228,9 @@ const projects: TProject[] = [
       },
     ],
     image: chatbot1,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "AI Assistant",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -254,12 +246,9 @@ const projects: TProject[] = [
       },
     ],
     image: chatbot2,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "3D Garage Design",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "three.js",
@@ -275,12 +264,9 @@ const projects: TProject[] = [
       },
     ],
     image: garage,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "Dating App",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "react-native",
@@ -296,12 +282,9 @@ const projects: TProject[] = [
       },
     ],
     image: datingapp,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "Health & Fitness App",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "react-native",
@@ -317,12 +300,9 @@ const projects: TProject[] = [
       },
     ],
     image: healthapp,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "Medical Services App",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "react-native",
@@ -338,12 +318,9 @@ const projects: TProject[] = [
       },
     ],
     image: medicalapp,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "Soups Shop",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "html",
@@ -359,12 +336,9 @@ const projects: TProject[] = [
       },
     ],
     image: ecommerce1,
-    sourceCodeLink: "https://github.com/",
   },
   {
     name: "Cloths Shop",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "html",
@@ -380,7 +354,6 @@ const projects: TProject[] = [
       },
     ],
     image: ecommerce2,
-    sourceCodeLink: "https://github.com/",
   },
 ];
 

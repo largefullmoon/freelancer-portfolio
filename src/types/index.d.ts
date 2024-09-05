@@ -19,13 +19,12 @@ export type TTestimonial = {
 } & Required<Pick<TCommonProps, "name">>;
 
 export type TProject = {
-  description: string;
+  name: string;
   tags: {
     name: string;
     color: string;
   }[];
   image: string;
-  sourceCodeLink: string;
 } & Required<Pick<TCommonProps, "name">>;
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;
